@@ -36,8 +36,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/codeflix_bots'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/weebs_support')
+        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/All_animes_in_teluguu_vs'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/All_animes_in_teluguu_vs')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -58,8 +58,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([[
                 InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/codeflix_bots'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/weebs_support')
+                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/All_animes_in_teluguu_vs'),
+                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/All_animes_in_teluguu_vs')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -71,9 +71,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/sewxiy")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/ind_gamer_1")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url='https://t.me/weebs_support')
+                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url='https://t.me/ind_gamer_1')
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
@@ -85,12 +85,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ʙᴏᴛ¹", url="https://t.me/lucy_filter_bot"),
-                InlineKeyboardButton("ᴀɪ ʙᴏᴛ²", url="https://t.me/daisyprobot")           
+                InlineKeyboardButton("ᴍᴏᴠɪᴇ ʙᴏᴛ¹", url="https://t.me/All_animes_in_teluguu_vs"),
+                InlineKeyboardButton("ᴀɪ ʙᴏᴛ²", url="https://t.me/All_animes_in_teluguu_vs")           
                 ],[
-                InlineKeyboardButton("sᴇʀɪᴇs ғʟɪx", url="https://t.me/seriesflix_original")
+                InlineKeyboardButton("sᴇʀɪᴇs ғʟɪx", url="https://t.me/All_animes_in_teluguu_vs")
                 ],[
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ғʟɪx", url="https://t.me/movieflix_original")
+                InlineKeyboardButton("ᴍᴏᴠɪᴇ ғʟɪx", url="https://t.me/All_animes_in_teluguu_vs")
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
@@ -102,7 +102,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴏᴜʀ ʙᴏᴛꜱ", callback_data = "codeflix")
+                InlineKeyboardButton("ᴏᴜʀ ʙᴏᴛꜱ", callback_data = "Anime Telugu")
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("Developer", callback_data = "dev")
@@ -114,9 +114,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/Illegal_Developer")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/ind_gamer_1")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/IllegalDeveloperBot")
+                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/All_animes_in_teluguu_vs")
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
