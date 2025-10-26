@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "21655449")
-    API_HASH  = os.environ.get("API_HASH", "112be9974e163f6dbd645ce4b94f4e6a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6782811930:AAFDqkELEVJeGGlTbI5tavrac7RfZ7-Qzw4") 
+    API_ID    = os.environ.get("API_ID", "28408609")
+    API_HASH  = os.environ.get("API_HASH", "d6ddeafb0c189d91b8197ad49103e806")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7475245366:AAHyg4ivKcqd4pg-iOr2KB_STmQiBFqwe_w") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Rename2")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1229852181').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "team_netflix") 
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/fccb145a113ff07c87863-97df2bfd8f32647316.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5665480584').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "All_animes_in_teluguu_vs") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
@@ -54,14 +54,14 @@ class Txt(object):
 ➻ Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.
 ➻ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.
 
-💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Codeflix_Bots 💞</b>"""
+💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @All_animes_in_teluguu_vs 💞</b>"""
 
     ILLEGAL_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴏᴜʀ ᴀʟʟ ʙᴏᴛ ʟɪꜱᴛ</b>"""
     
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/codeflix_bots>**ᴄᴏᴅᴇғʟɪx ʙᴏᴛs**</a> 🕷
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : **ᴍɪᴋᴇʏ**
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/ind_gamer_1>**Govar**</a> 🕷
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : **Yoo**
 ╰───────────────⍟ </b>"""
 
     HELP_TXT = """
@@ -85,13 +85,13 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 <b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
 
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/IllegalDeveloperBot>𝘽𝙤𝙩 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/ind_gamer_1>𝘽𝙤𝙩 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧</a>
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ https://github.com/Codeflix-Bots🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-»<a href=https://t.me/codeflix_bots>**Codeflix bots**</a>🕷
-»**Kunal Singh ♡**"""
+»<a href=https://t.me/ind_gamer_1**Govar**</a>🕷
+»**Govar ♡**"""
 
     PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
